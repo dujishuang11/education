@@ -1,0 +1,153 @@
+.djsBanner {
+	width: 100%;
+	height: 100vh;
+	background: #34BAF6;
+	overflow: hidden;
+	position: relative;
+}
+.djsHeader {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.djsLogo {
+	width: 152px;
+	height: 52px;
+	margin: 10px 0 0 210px;
+	display: block;
+}
+.djsNav {
+	width: 50%;
+	height: 50px;
+	margin-right: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+.djsNav li {
+	height: 50px;
+}
+.djsNav li .navText {
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	font-size: 16px;
+}
+.djsNav li .djsBorder {
+	width: 0;
+	height: 3px;
+	background: white;
+	transition: .3s;
+}
+.djs-banner {
+	width: 609px;
+	height: 696px;
+	position: absolute;
+	left: -50%;
+	top: 60px;
+	opacity: 0;
+	transform: rotate(-180deg);
+	transition: 1s;
+}
+.djs-banner .ball2012 {
+	width: 35px;
+	height: 18px;
+	background: rgba(0,0,0,.3);
+	border-radius: 50%;
+	position: absolute;
+	top: 138px;
+	left: 60%;
+}
+.djs-banner .ball2012 img {
+	width: 52px;
+	height: 75px;
+	position: absolute;
+	bottom: 7px;
+	left: -8px;
+}
+.djs-banner .ball2015 {
+	width: 35px;
+	height: 18px;
+	background: rgba(0,0,0,.3);
+	border-radius: 50%;
+	position: absolute;
+	top: 330px;
+	left: 26%;
+}
+.djs-banner .ball2015 img {
+	width: 64px;
+	height: 94px;
+	position: absolute;
+	bottom: 7px;
+	left: -13px;
+}
+.djs-banner .ball2017 {
+	width: 35px;
+	height: 18px;
+	background: rgba(0,0,0,.3);
+	border-radius: 50%;
+	position: absolute;
+	top: 420px;
+	left: 85%;
+}
+.djs-banner .ball2017 img {
+	width: 65px;
+	height: 96px;
+	position: absolute;
+	bottom: 7px;
+	left: -13px;
+}
+.djs-banner .arrow {
+	width: 50px;
+	height: 42px;
+	position: absolute;
+	bottom: 150px;
+	left: 46%;
+}
+.djs-banner .arrow img {
+	width: 100%;
+	height: 100%;
+}
+.djsTitle {
+	width: 457px;
+	height: 245px;
+	display: block;
+	position: absolute;
+	left: 34%;
+	top: 70px;
+}
+.sun {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 20%;
+	top: 190px;
+}
+.yun1 {
+	width: 164px;
+	height: 73px;
+	position: absolute;
+	left: 10%;
+	top: 255px;
+}
+.yun2 {
+	width: 164px;
+	height: 73px;
+	position: absolute;
+	left: 80%;
+	top: 460px;
+}
+.ball1 {
+	width: 58px;
+	height: 73px;
+	position: absolute;
+	left: 15%;
+	top: 440px;
+}
+.ball2 {
+	width: 65px;
+	height: 101px;
+	position: absolute;
+	left: 82%;
+	top: 340px;
+}

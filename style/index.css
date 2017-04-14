@@ -151,3 +151,165 @@
 	left: 82%;
 	top: 340px;
 }
+
+.aboutUs-bg {
+	width: 100%;
+	height: 542px;
+	background: url(../images/02.jpg) center center;
+}
+.aboutUs {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.aboutUs .aboutUs-body {
+	width: 500px;
+	padding: 60px 50px;
+}
+.aboutUs-title {
+	font-size: 36px;
+	color: white;
+}
+.aboutUs-title span {
+	font-size: 16px;
+}
+.aboutUs .aboutUs-text {
+	width: 500px;
+	height: 300px;
+	overflow-y: scroll;
+	margin-top: 20px;
+}
+.aboutUs .aboutUs-text > p {
+	display: block;
+	margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0px;
+    margin-end: 0px;
+    text-indent: 30px;
+}
+.aboutUs .aboutUs-text > p span {
+	font-size: 14px;
+	line-height: 2;
+}
+.aboutUs .aboutUs-img {
+	width: 594px;
+	height: 339px;
+	margin-top: 100px;
+	margin-right: 20px;
+	background: url(../images/08.png) no-repeat;
+}
+.about {
+	width: 100%;
+	height: 605px;
+	background: #FD5A35;
+	position: relative;
+}
+.about .lou {
+	width: 100%;
+	height: 212px;
+	background: url(../images/03.png) no-repeat center bottom;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.about .tree {
+	width: 100%;
+	height: 302px;
+	background: url(../images/21.png) no-repeat center bottom;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.yun3 {
+	width: 116px;
+	height: 64px;
+	background: url(../images/19.png) no-repeat;
+	position: absolute;
+	left: -15px;
+	bottom: 200px;
+}
+.yun4 {
+	width: 106px;
+	height: 65px;
+	background: url(../images/20.png) no-repeat;
+	position: absolute;
+	right: 70px;
+	bottom: 170px;
+}
+.jianjie {
+	width: 326px;
+	padding: 30px 0 0 210px;
+	color: white;
+	line-height: 2;
+}
+.jianjie > p {
+	font-size: 14px;
+	display: block;
+	margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0px;
+    margin-end: 0px;
+    text-indent: 30px;
+}
+.jianjie > p span {
+	font-size: 14px;
+	line-height: 2;
+}
+.jianjie > .about-title {
+	font-size: 16px;
+	text-indent: 0;
+}
+.jianjie > .about-logo {
+	padding: 10px 0;
+	text-indent: 0;
+}
+.jianjie > .about-logo img {
+	width: 100px;
+	height: 38px;
+	border: none;
+	vertical-align: middle;
+}
+.wenhua {
+	width: 312px;
+	padding: 30px 210px 0 0;
+	color: white;
+}
+.wenhua > p {
+	display: block;
+	margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0px;
+    margin-end: 0px;
+    text-indent: 30px;
+}
+.wenhua > p span {
+	font-size: 14px;
+	line-height: 2;
+}
+.history {
+	width: 100%;
+	height: 665px;
+	padding-top: 55px;
+	background: #a6d22d;
+    overflow: visible;
+    position: relative;
+}
+.about-history {
+	width: 90%;
+	margin: 0 auto;
+}
+.tree2 {
+	width: 100%;
+	height: 270px;
+	background: url(../images/01.png) no-repeat;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.history-content {
+	width: 772px;
+	height: 457px;
+	margin: 50px auto 0;
+	background: url(../images/07.jpg) no-repeat;
+}

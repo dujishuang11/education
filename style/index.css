@@ -57,6 +57,7 @@
 	position: absolute;
 	top: 138px;
 	left: 60%;
+	/*animation: 1s .4s yuan linear infinite;*/
 }
 .djs-banner .ball2012 img {
 	width: 52px;
@@ -64,6 +65,7 @@
 	position: absolute;
 	bottom: 7px;
 	left: -8px;
+	animation: 1s .4s ding linear infinite;
 }
 .djs-banner .ball2015 {
 	width: 35px;
@@ -383,6 +385,7 @@
 	height: 640px;
 	background: #33DFA4;
 	position: relative;
+	overflow: hidden;
 }
 .about-honor > img {
 	position: absolute;
@@ -409,7 +412,6 @@
 	width: calc(50% - 100px);
 	margin-right: 60px;
 	padding: 60px 50px;
-	background: red;
 }
 .honor-content .honor-title {
 	text-align: right;
@@ -417,6 +419,9 @@
 }
 .honor-content .honor-text1 {
 	width: 100%;
+}
+.honor-content .honor-text1:last-child {
+	margin-top: 40px;
 }
 .honor-content .honor-text1 p {
 	display: block;
@@ -431,9 +436,221 @@
 	line-height: 2;
 	color: #1d8d69;
 }
+.yun {
+	width: 104px;
+	height: 62px;
+	position: absolute;
+	left: 105vw;
+}
+.y1 {
+	top: 182px;
+	animation: 10.8s 4.2s yun linear infinite;
+}
+.y2 {
+	top: 227px;
+	animation: 8.4s 8.6s yun linear infinite;
+}
+.y3 {
+	top: 297px;
+	animation: 8s yun linear infinite;
+}
+.y4 {
+	top: 365px;
+	animation: 12.2s 6.5s yun linear infinite;
+}
+@keyframes yun {
+	from {
+		margin-left: -5vw;
+	}
+	to {
+		margin-left: -120vw;
+	}
+}
 
+.about-team {
+	width: 100%;
+	height: 520px;
+	padding-top: 54px;
+	background: #3dbcf4;
+	position: relative;
+	overflow: hidden;
+}
+.team-title {
+	margin-left: 134px;
+}
+.ye {
+	width: 100%;
+	height: 334px;
+	background: url(../images/22.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 160px;
+}
+.shan {
+	width: 100%;
+	height: 314px;
+	background: url(../images/23.png) no-repeat;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+}
+.about-team ul {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.about-team ul li {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.about-team ul li:nth-child(1) {
+	left: 185px;
+	top: 116px;
+}
+.about-team ul li:nth-child(2) {
+	left: 394px;
+	top: 183px;
+}
+.about-team ul li:nth-child(3) {
+	left: 614px;
+	top: 110px;
+}
+.about-team ul li:nth-child(4) {
+	left: 804px;
+	top: 234px;
+}
+.about-team ul li img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.about-team ul li img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.about-team ul li div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity:0.8;
+	background-color: #15698f;
+	display:none;
+}
+.about-visit {
+	width: 100%;
+	height: 640px;
+	background: #917EF2;
+	position: relative;
+	overflow: hidden;
+}
+.pc {
+	position: absolute;
+}
+.pc1 {
+	width: 190px;
+	height: 234px;
+	background: url(../images/04.png) no-repeat;
+	left: 0;
+	top: 35px;
+}
+.pc2 {
+	width: 345px;
+	height: 213px;
+	background: url(../images/06.png) no-repeat;
+	left: 168px;
+	bottom: 0;
+}
+.pc3 {
+	width: 352px;
+	height: 355px;
+	background: url(../images/05.png) no-repeat;
+	right: 0;
+	bottom: 0;
+}
+.visit-content {
+	width: 1200px;
+	padding-top: 65px;
+	margin: 0 auto;
+	background: url(../images/26.png) no-repeat right top;
+}
+.visit-title {
+	text-align: right;
+}
+.visit-content ul {
+	width: 775px;
+	padding-top: 65px;
+	margin: 0 auto;
+	position: relative;
+}
+.visit-content ul li {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.visit-content ul li:first-child {
+	width: 255px;
+	height: 325px;
+}
+.visit-content ul li:nth-child(2),.visit-content ul li:nth-child(3),.visit-content ul li:nth-child(4),.visit-content ul li:nth-child(5) {
+	width: 255px;
+	height: 160px;
+}
+.visit-content ul li:nth-child(3),.visit-content ul li:nth-child(5) {
+	margin-right: 0;
+}
+.visit-content ul li img {
+	width: 100%;
+	height: 100%;
+}
 
-
-
-
-
+footer {
+	width: 100%;
+	height: 110px;
+	padding-top: 40px;
+	background: #1a1a1a;
+}
+.footer-content {
+	width: 1200px;
+	margin: 0 auto;
+}
+.footer-content p {
+	margin-left: 310px;
+	line-height: 2;
+}
+.footer-content p:nth-child(1) {
+	color: white;
+	font-size: 14px;
+}
+.footer-content p:nth-child(2) {
+	color: #464646;
+	font-size: 12px;
+}
+@keyframes ding{
+	0%{
+		transform: translateY(-10px);
+	}
+	50%{
+		transform: translateY(0);
+	}
+	100%{
+		transform: translateY(-10px);
+	}
+}
+@keyframes yuan{
+	0%{
+		transform: scale(.8);
+	}
+	50%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(.8);
+	}
+}

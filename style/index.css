@@ -52,12 +52,16 @@
 .djs-banner .ball2012 {
 	width: 35px;
 	height: 18px;
-	background: rgba(0,0,0,.3);
-	border-radius: 50%;
 	position: absolute;
 	top: 138px;
 	left: 60%;
-	/*animation: 1s .4s yuan linear infinite;*/
+}
+.djs-banner .ball2012 div {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+	border-radius: 50%;
+	animation: 1.5s .4s yuan linear infinite;
 }
 .djs-banner .ball2012 img {
 	width: 52px;
@@ -65,16 +69,21 @@
 	position: absolute;
 	bottom: 7px;
 	left: -8px;
-	animation: 1s .4s ding linear infinite;
+	animation: 1.5s .4s ding linear infinite;
 }
 .djs-banner .ball2015 {
 	width: 35px;
 	height: 18px;
-	background: rgba(0,0,0,.3);
-	border-radius: 50%;
 	position: absolute;
 	top: 330px;
 	left: 26%;
+}
+.djs-banner .ball2015 div {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+	border-radius: 50%;
+	animation: 2s .4s yuan linear infinite;
 }
 .djs-banner .ball2015 img {
 	width: 64px;
@@ -82,15 +91,21 @@
 	position: absolute;
 	bottom: 7px;
 	left: -13px;
+	animation: 2s .4s ding linear infinite;
 }
 .djs-banner .ball2017 {
 	width: 35px;
 	height: 18px;
-	background: rgba(0,0,0,.3);
-	border-radius: 50%;
 	position: absolute;
 	top: 420px;
 	left: 85%;
+}
+.djs-banner .ball2017 div {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+	border-radius: 50%;
+	animation: 1.8s .4s yuan linear infinite;
 }
 .djs-banner .ball2017 img {
 	width: 65px;
@@ -98,6 +113,7 @@
 	position: absolute;
 	bottom: 7px;
 	left: -13px;
+	animation: 1.8s .4s ding linear infinite;
 }
 .djs-banner .arrow {
 	width: 50px;
@@ -105,6 +121,7 @@
 	position: absolute;
 	bottom: 150px;
 	left: 46%;
+	animation: 2s .4s ding linear infinite;
 }
 .djs-banner .arrow img {
 	width: 100%;
@@ -117,6 +134,7 @@
 	position: absolute;
 	left: 34%;
 	top: 70px;
+	animation: 1.1s title linear;
 }
 .sun {
 	width: 80px;
@@ -124,20 +142,38 @@
 	position: absolute;
 	left: 20%;
 	top: 190px;
+	animation: 4s 1.5s sunx linear infinite;
+}
+.sun-sun{
+	width: 100%;
+	height: 100%;
+	animation: 2s op linear;
 }
 .yun1 {
 	width: 164px;
 	height: 73px;
 	position: absolute;
-	left: 10%;
+	left: 7%;
 	top: 255px;
+	animation: 5s 1.5s yunx linear infinite;
+}
+.yun1-1 {
+	width: 100%;
+	height: 100%;
+	animation: 2s op linear;
 }
 .yun2 {
 	width: 164px;
 	height: 73px;
 	position: absolute;
-	left: 80%;
+	left: 84%;
 	top: 460px;
+	animation: 5s 1.5s yunx linear infinite;
+}
+.yun2-2 {
+	width: 100%;
+	height: 100%;
+	animation: 2s op linear;
 }
 .ball1 {
 	width: 58px;
@@ -145,6 +181,12 @@
 	position: absolute;
 	left: 15%;
 	top: 440px;
+	animation: 4.5s 1.5s yunx linear infinite;
+}
+.ball1-1 {
+	width: 100%;
+	height: 100%;
+	animation: 2s op linear;
 }
 .ball2 {
 	width: 65px;
@@ -152,6 +194,12 @@
 	position: absolute;
 	left: 82%;
 	top: 340px;
+	animation: 5.5s 1.5s yunx linear infinite;
+}
+.ball2-2 {
+	width: 100%;
+	height: 100%;
+	animation: 2s op linear;
 }
 
 .aboutUs-bg {
@@ -458,14 +506,6 @@
 	top: 365px;
 	animation: 12.2s 6.5s yun linear infinite;
 }
-@keyframes yun {
-	from {
-		margin-left: -5vw;
-	}
-	to {
-		margin-left: -120vw;
-	}
-}
 
 .about-team {
 	width: 100%;
@@ -631,26 +671,4 @@ footer {
 .footer-content p:nth-child(2) {
 	color: #464646;
 	font-size: 12px;
-}
-@keyframes ding{
-	0%{
-		transform: translateY(-10px);
-	}
-	50%{
-		transform: translateY(0);
-	}
-	100%{
-		transform: translateY(-10px);
-	}
-}
-@keyframes yuan{
-	0%{
-		transform: scale(.8);
-	}
-	50%{
-		transform: scale(1);
-	}
-	100%{
-		transform: scale(.8);
-	}
 }
